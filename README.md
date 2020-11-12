@@ -29,6 +29,15 @@ edit data\default.yaml
 在 schema_list: 加入 - schema: tnine
 在rime輸入法 icon 右click 塭 重新部署按下後即可使用
 ```
+
+```
+#linux
+go to /usr/share/rime-data /
+Copy all tnine.* to data folder
+edit data/default.yaml
+在 schema_list: 加入 - schema: tnine
+```
+
 作者:shal0880
 
 如有任何問題可以在github上查詢
