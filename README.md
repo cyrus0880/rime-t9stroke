@@ -13,13 +13,12 @@ tnine.enn.dict.yaml        #自定議字庫
 tnine.symbol.dict.yaml     #symbol字庫
 
 setup 方法
-> windows 
-go to C:\Program Files (x86)\Rime\weasel-0.14.3
+#windows 
+```go to C:\Program Files (x86)\Rime\weasel-0.14.3
 Copy all tnine.* to data folder
 edit data\default.yaml
 在 schema_list: 加入 - schema: tnine
-
 在rime輸入法 icon 右click 塭 重新部署按下後即可使用
-
+```
 作者:shal0880
 如有任何問提可以在github上查詢
