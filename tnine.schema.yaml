@@ -1,0 +1,96 @@
+# Rime schema settings
+# encoding: utf-8
+
+schema:
+  schema_id: tnine
+  name: "T9筆畫"
+  version: "0.8"
+  author:
+    - Cyrus.Yeung <cyrus0880@outlook.com>
+  description: |
+    T9/六碼 筆畫
+    j,k,l,u,i 代表橫、豎、撇、捺、折
+  
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: simplification
+    states: [ 漢字, 汉字 ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - reverse_lookup_translator
+    - table_translator
+
+speller:
+  alphabet: "abcdefghijklmnopqrstuvwxyz"
+  delimiter: " '"
+  algebra:
+    # "o"萬用字元 測試中
+    - derive/^一/as/
+    - derive/^(.).$/$1\o/               # .o
+    - derive/^.(.)$/\o$1/               # o.
+    - derive/^(.)(.).$/$1$2\o/          # ..o
+    - derive/^(.).(.)$/$1\o$2/          # .o.
+    - derive/^(.)..$/$1\o\o/            # .oo
+    - derive/^.(.)(.)$/\o$1$2/          # o..
+    - derive/^.(.).$/\o$1\o/            # o.o
+    - derive/^..(.)$/\o\o$1/            # oo.
+    - derive/^(.)(.)(.).$/$1$2$3\o/     # ...o
+    - derive/^(.)(.).(.)$/$1$2\o$3/     # ..o.
+    - derive/^(.)(.)..$/$1$2\o\o/       # ..oo
+    - derive/^(.).(.)(.)$/$1\o$2$3/     # .o..
+    - derive/^(.).(.).$/$1\o$2\o/       # .o.o
+    - derive/^(.)..(.)$/$1\o\o$2/       # .oo.
+    - derive/^(.)...$/$1\o\o\o/         # .ooo
+    - derive/^.(.)(.)(.)$/\o$1$2$3/     # o...
+    - derive/^.(.)(.).$/\o$1$2\o/       # o..o
+    - derive/^.(.).(.)$/\o$1\o$2/       # o.o.
+    - derive/^.(.)..$/\o$1\o\o/         # o.oo
+    - derive/^..(.)(.)$/\o\o$1$2/       # oo..
+    - derive/^..(.).$/\o\o$1\o/         # oo.o
+    - derive/^...(.)$/\o\o\o$1/         # ooo. 
+    - derive/^....(.)$/$1$2$3$4\o/      # .....o 
+    - derive/^...(.).$/$1$2$3\o$4/      # ....o.     
+menu:
+  page_size: 9
+
+translator:
+  dictionary: tnine.extended
+  preedit_format:
+    - xlit/jkluio/一丨丿丶乙*/
+  comment_format:
+    - xlit/jkluio/一丨丿丶乙*/
+
+punctuator:
+  import_preset: default
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "`[a-z]*'?$"
+

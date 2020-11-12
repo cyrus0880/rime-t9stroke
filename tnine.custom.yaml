@@ -1,0 +1,9 @@
+# save it to: 
+#   ~/.config/ibus/rime  (linux)
+#   ~/Library/Rime  (macos)
+#   %APPDATA%\Rime  (windows)
+
+patch:
+  "key_binder/bindings":
+    - { when: paging, accept: bracketleft, send: Page_Up }
+    - { when: has_menu, accept: bracketright, send: Page_Down }
