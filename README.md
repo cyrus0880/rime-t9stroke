@@ -6,7 +6,9 @@ T9 / G6IMT 筆劃輸入法 JKLUIO （一丨丿丶フ*）版本 (OSX 筆劃排位
 增加* 萬用字測試 最多頭4-5碼 可用*
 
 tnine.schema.ymal          #輪入法主config
+
 tnine.extended.dict.yaml   #碼庫 config
+
 tnine.g6tc.dict.yaml       #六碼字庫
 tnine.g6tcf.dict.yaml      #全碼字庫
 tnine.enn.dict.yaml        #自定議字庫
