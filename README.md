@@ -31,4 +31,4 @@ edit data\default.yaml
 ```
 作者:shal0880
 
-如有任何問提可以在github上查詢
+如有任何問題可以在github上查詢
