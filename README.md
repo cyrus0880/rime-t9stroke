@@ -38,6 +38,6 @@ edit data/default.yaml
 在 schema_list: 加入 - schema: tnine
 ```
 
-作者:shal0880
+作者:cyrus0880
 
 如有任何問題可以在github上查詢
