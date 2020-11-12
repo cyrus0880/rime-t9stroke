@@ -36,6 +36,7 @@ go to /usr/share/rime-data /
 Copy all tnine.* to data folder
 edit data/default.yaml
 在 schema_list: 加入 - schema: tnine
+在ibus icon 揀 rime輸入法 系ibus輸入法menu 塭 重新部署 按下後即可使用
 ```
 
 作者:cyrus0880
