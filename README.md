@@ -1,5 +1,5 @@
 # rime-t9stroke
-T9 / G6IMT 筆劃輸入法 JKLUIO （一丨丿丶フ*）版本 (OSX 筆劃排位)
+T9 / G6IME 筆劃輸入法 JKLUIO （一丨丿丶フ*）版本 (OSX 筆劃排位)
 
 碼庫使用了G6IME六碼輸入法windows版的sqlite db 
 
