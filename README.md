@@ -39,6 +39,8 @@ edit data/default.yaml
 在ibus icon 揀 rime輸入法 系ibus輸入法menu 塭 重新部署 按下後即可使用
 ```
 
+遲小小會提供uiojkl碼表的config同字庫上來
+
 作者:cyrus0880
 
 如有任何問題可以在github上查詢
