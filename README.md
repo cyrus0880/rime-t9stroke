@@ -27,7 +27,7 @@ go to C:\Program Files (x86)\Rime\weasel-0.14.3
 Copy all tnine.* to data folder
 edit data\default.yaml
 在 schema_list: 加入 - schema: tnine
-在rime輸入法 icon 右click 塭 重新部署按下後即可使用
+在rime輸入法 icon 右click 搵 重新部署按下後即可使用
 ```
 
 ```
@@ -36,7 +36,7 @@ go to /usr/share/rime-data /
 Copy all tnine.* to data folder
 edit data/default.yaml
 在 schema_list: 加入 - schema: tnine
-在ibus icon 揀 rime輸入法 系ibus輸入法menu 塭 重新部署 按下後即可使用
+在ibus icon 揀 rime輸入法 系ibus輸入法menu 搵 重新部署 按下後即可使用
 ```
 
 遲小小會提供uiojkl碼表的config同字庫上來
