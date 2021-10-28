@@ -11,7 +11,7 @@ Folder rime-t9.v1.3-jklui
 ```
 
 ```
-T9 / G6IME 筆劃輸入法 UIOJK （一丨丿丶フ*）版本 (OSX 筆劃排位)
+T9 / G6IME 筆劃輸入法 UIOJK （一丨丿丶フ*）版本 (G6IME default 筆劃排位)
 Folder rime-t9v1.3-uiojk 
 ```
 
