@@ -1,0 +1,10 @@
+# Rime dictionary
+# encoding: utf-8
+---
+name: tnine.enn
+version: "1.0"
+sort: by_weight              # 按字頻排序
+... 
+
+## 使用者自定對照表：
+google.com	goo

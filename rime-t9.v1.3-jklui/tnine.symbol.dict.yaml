@@ -1,0 +1,35 @@
+# Rime dictionary
+# encoding: utf-8
+---
+name: tnine.symbol
+version: "1.0"
+sort: by_weight              # 按字頻排序
+... 
+
+，	p
+。	p
+、	p
+．	p
+；	p
+：	p
+？	p
+！	p
+…	p
+—	p
+╴	p
+【	p
+】	p
+︻	p
+︼	p
+《	p
+》	p
+︽	p
+︾	p
+「	p
+」	p
+﹁	p
+﹂	p
+『	p
+』	p
+﹃	p
+﹄	p

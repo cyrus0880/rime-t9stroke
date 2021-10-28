@@ -1,0 +1,12 @@
+---
+name: tnine.extended
+version: "2019.12.9"
+sort: by_wight
+
+import_tables:
+    - tnine.g6tc
+    - tnine.g6tcf
+    - tnine.enn
+    - tnine.symbol
+...
+
