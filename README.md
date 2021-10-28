@@ -1,4 +1,8 @@
 # rime-t9stroke
+
+己上傳1.3版本 修正了部份bug
+二字司庫 三字司庫 多字司庫 還未加到 碼庫 config 內有需要自行加入 
+
 T9 / G6IME 筆劃輸入法 JKLUIO （一丨丿丶フ*）版本 (OSX 筆劃排位)
 
 碼庫使用了G6IME六碼輸入法windows版的sqlite db 
@@ -7,6 +11,8 @@ T9 / G6IME 筆劃輸入法 JKLUIO （一丨丿丶フ*）版本 (OSX 筆劃排位
 
 增加* 萬用字測試 最多頭4-5碼 可用*
 
+tnine.custom.yaml          #key_binder 1.3版
+
 tnine.schema.ymal          #輪入法主config
 
 tnine.extended.dict.yaml   #碼庫 config
@@ -14,6 +20,12 @@ tnine.extended.dict.yaml   #碼庫 config
 tnine.g6tc.dict.yaml       #六碼字庫
 
 tnine.g6tcf.dict.yaml      #全碼字庫
+
+tnine.g6t2p.dict.yaml      #二字司庫 1.3版
+
+tnine.g6t3p.dict.yaml      #三字司庫 1.3版
+
+tnine.g6tmp.dict.yaml      #多字司庫 1.3版
 
 tnine.enn.dict.yaml        #自定議字庫
 
@@ -38,8 +50,6 @@ edit data/default.yaml
 在 schema_list: 加入 - schema: tnine
 在ibus icon 揀 rime輸入法 系ibus輸入法menu 搵 重新部署 按下後即可使用
 ```
-
-遲小小會提供uiojkl碼表的config同字庫上來
 
 作者:cyrus0880
 
