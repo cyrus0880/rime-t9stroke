@@ -5,11 +5,15 @@
 二字司庫 三字司庫 多字司庫 還未加到 碼庫 config 內有需要自行加入
 ---
 
-> T9 / G6IME 筆劃輸入法 JKLUIO （一丨丿丶フ*）版本 (OSX 筆劃排位)
-> rime-t9.v1.3-jklui
+```
+T9 / G6IME 筆劃輸入法 JKLUIO （一丨丿丶フ*）版本 (OSX 筆劃排位)
+Folder rime-t9.v1.3-jklui
+```
 
-> T9 / G6IME 筆劃輸入法 UIOJK （一丨丿丶フ*）版本 (OSX 筆劃排位)
-> rime-t9v1.3-uiojk 
+```
+T9 / G6IME 筆劃輸入法 UIOJK （一丨丿丶フ*）版本 (OSX 筆劃排位)
+Folder rime-t9v1.3-uiojk 
+```
 
 碼庫使用了G6IME六碼輸入法windows版的sqlite db 
 
