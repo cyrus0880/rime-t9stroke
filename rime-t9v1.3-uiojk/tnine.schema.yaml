@@ -47,32 +47,32 @@ speller:
   alphabet: "abcdefghijklmnopqrstuvwxyz"
   delimiter: " '"
   algebra:
-    # "o"萬用字元 測試中
+    # "l"萬用字元 測試中
     - derive/^一/as/
-    - derive/^(.).$/$1\o/               # .o
-    - derive/^.(.)$/\o$1/               # o.
-    - derive/^(.)(.).$/$1$2\o/          # ..o
-    - derive/^(.).(.)$/$1\o$2/          # .o.
-    - derive/^(.)..$/$1\o\o/            # .oo
-    - derive/^.(.)(.)$/\o$1$2/          # o..
-    - derive/^.(.).$/\o$1\o/            # o.o
-    - derive/^..(.)$/\o\o$1/            # oo.
-    - derive/^(.)(.)(.).$/$1$2$3\o/     # ...o
-    - derive/^(.)(.).(.)$/$1$2\o$3/     # ..o.
-    - derive/^(.)(.)..$/$1$2\o\o/       # ..oo
-    - derive/^(.).(.)(.)$/$1\o$2$3/     # .o..
-    - derive/^(.).(.).$/$1\o$2\o/       # .o.o
-    - derive/^(.)..(.)$/$1\o\o$2/       # .oo.
-    - derive/^(.)...$/$1\o\o\o/         # .ooo
-    - derive/^.(.)(.)(.)$/\o$1$2$3/     # o...
-    - derive/^.(.)(.).$/\o$1$2\o/       # o..o
-    - derive/^.(.).(.)$/\o$1\o$2/       # o.o.
-    - derive/^.(.)..$/\o$1\o\o/         # o.oo
-    - derive/^..(.)(.)$/\o\o$1$2/       # oo..
-    - derive/^..(.).$/\o\o$1\o/         # oo.o
-    - derive/^...(.)$/\o\o\o$1/         # ooo. 
-    - derive/^....(.)$/$1$2$3$4\o/      # .....o 
-    - derive/^...(.).$/$1$2$3\o$4/      # ....o.     
+    - derive/^(.).$/$1\l/               # .l
+    - derive/^.(.)$/\l$1/               # l.
+    - derive/^(.)(.).$/$1$2\l/          # ..l
+    - derive/^(.).(.)$/$1\l$2/          # .l.
+    - derive/^(.)..$/$1\l\l/            # .ll
+    - derive/^.(.)(.)$/\l$1$2/          # l..
+    - derive/^.(.).$/\l$1\l/            # l.l
+    - derive/^..(.)$/\l\l$1/            # ll.
+    - derive/^(.)(.)(.).$/$1$2$3\l/     # ...l
+    - derive/^(.)(.).(.)$/$1$2\l$3/     # ..l.
+    - derive/^(.)(.)..$/$1$2\l\l/       # ..ll
+    - derive/^(.).(.)(.)$/$1\l$2$3/     # .l..
+    - derive/^(.).(.).$/$1\l$2\l/       # .l.l
+    - derive/^(.)..(.)$/$1\l\l$2/       # .ll.
+    - derive/^(.)...$/$1\l\l\l/         # .lll
+    - derive/^.(.)(.)(.)$/\l$1$2$3/     # l...
+    - derive/^.(.)(.).$/\l$1$2\l/       # l..l
+    - derive/^.(.).(.)$/\l$1\l$2/       # l.l.
+    - derive/^.(.)..$/\l$1\l\l/         # l.ll
+    - derive/^..(.)(.)$/\l\l$1$2/       # ll..
+    - derive/^..(.).$/\l\l$1\l/         # ll.l
+    - derive/^...(.)$/\l\l\l$1/         # lll. 
+    - derive/^....(.)$/$1$2$3$4\l/      # .....l 
+    - derive/^...(.).$/$1$2$3\l$4/      # ....l.  
 menu:
   page_size: 9
 
