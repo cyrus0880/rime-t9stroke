@@ -31,13 +31,13 @@ tnine.g6tc.dict.yaml       #六碼字庫
 
 tnine.g6tcf.dict.yaml      #全碼字庫
 
-tnine.g6t2p.dict.yaml      #二字司庫 1.3版
+tnine.g6t2p.dict.yaml      #二字詞庫 1.3版
 
-tnine.g6t3p.dict.yaml      #三字司庫 1.3版
+tnine.g6t3p.dict.yaml      #三字詞庫 1.3版
 
-tnine.g6tmp.dict.yaml      #多字司庫 1.3版
+tnine.g6tmp.dict.yaml      #多字詞庫 1.3版
 
-tnine.enn.dict.yaml        #自定議字庫
+tnine.enn.dict.yaml        #自定字庫
 
 tnine.symbol.dict.yaml     #symbol字庫
 
